@@ -161,8 +161,6 @@ function showReaction(message) {
     message.includes("draw") ? 
     "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" : 
     "";
-
-  // === Play sound using JavaScript ===
   if (message.includes("wins")) {
     const winSound = new Audio("sounds/win-sound.mp3");
     winSound.play();
@@ -176,12 +174,8 @@ function showReaction(message) {
     reactionModal.style.display = "none";
   }, 2500);
 }
-
-
 cells.forEach(cell => cell.addEventListener('click', handleCellClick));
 resetBtn.addEventListener('click', resetBoard);
-
-// === Sound Effects ===
 const clickSound = new Audio("sounds/button-click(chosic.com).mp3");
 const winSound = new Audio("sounds/win-sound.mp3");
 const startSound = new Audio("sounds/ui-button-click-5-327756.mp3");

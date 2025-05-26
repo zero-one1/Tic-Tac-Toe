@@ -66,6 +66,6 @@ Thanks to open-source media providers for sounds and GIFs used for reactions.
 No setup required! Just:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/zero-one1/Tic-Tac-Toe.git
 cd tic-tac-toe
 open index.html
